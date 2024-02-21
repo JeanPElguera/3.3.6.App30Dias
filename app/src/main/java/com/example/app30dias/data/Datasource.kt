@@ -3,7 +3,8 @@ package com.example.app30dias.data
 import com.example.app30dias.R
 import com.example.app30dias.model.Game
 
-object GamesRepository{
+class GamesRepository{
+    companion object {
     val games = listOf(
         Game(
             diaRes = 1,
@@ -86,4 +87,5 @@ object GamesRepository{
             rating = 5.00f
         ),
     )
+    }
 }

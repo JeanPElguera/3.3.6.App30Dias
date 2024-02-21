@@ -21,10 +21,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.app30dias.data.GamesRepository.games
+import com.example.app30dias.data.GamesRepository
 import com.example.app30dias.ui.theme.App30DiasTheme
 import com.example.app30dias.ui.theme.changeIconColor
 
@@ -52,17 +51,18 @@ fun GamesApp(modifier: Modifier = Modifier){
         topBar = {
             GamesTopAppBar()
         }
-    ) { it ->
-        LazyColumn(contentPadding = it,
-                modifier = Modifier
-                    .fillMaxSize()
-                    .background(color = MaterialTheme.colorScheme.secondary),
+    ) { paddingValues ->
+        LazyColumn(contentPadding = paddingValues,
+            modifier = Modifier
+                .fillMaxSize()
+                .background(color = MaterialTheme.colorScheme.secondary),
         ) {
 
-            items(games) {
+            // Aquí es donde usamos GamesRepository.games en lugar de una referencia directa a 'games'
+            items(GamesRepository.games) { game ->
 
                 GameItem(
-                    game = it,
+                    game = game,
                     modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_small))
                 )
             }
