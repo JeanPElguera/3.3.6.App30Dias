@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">10 VideoJuegos Para 10 Días</string>
+    <string name="game1">The Last Of Us</string>
+    <string name = "day">Día %s</string>
+    <string name = "description1">The Last of Us es una franquicia de juegos de acción, aventuras y survival horror creada por Naughty Dog y Sony Interactive Entertainment. .</string>
+    <string name="game2">BattleField 1</string>
+    <string name = "description2">Battlefield 1 es un videojuego de disparos y acción bélica en primera persona. El título fue desarrollado por EA Digital Illusions CE y distribuido por Electronic Arts para PlayStation 4, Xbox One y Microsoft Windows. </string>
+    <string name="game3">Resident evil 4 Remake</string>
+    <string name = "description3">Resident Evil 4 —cuyo título original en Japón es Biohazard RE:4 es un videojuego de acción-aventura de disparos en tercera persona perteneciente al subgénero de terror y supervivencia desarrollado y publicado por Capcom.</string>
+    <string name="game4">Monster Hunter World</string>
+    <string name = "description4">Monster Hunter: World es un videojuego perteneciente al género de rol y acción, desarrollado y publicado por la empresa Capcom, siendo el sexto título principal de la franquicia de videojuegos Monster Hunter.</string>
+    <string name="game5">Elder Ring</string>
+    <string name = "description5">Elden Ring es un videojuego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. El videojuego surge de una colaboración entre el director y diseñador Hidetaka Miyazaki y el novelista de fantasía George R. R. Martin.</string>
+    <string name="game6">League Of Legends</string>
+    <string name = "description6">League of Legends, es un videojuego multijugador de arena de batalla en línea desarrollado y publicado por Riot Games. Inspirándose en Defense of the Ancients, un mapa personalizado para Warcraft III, los fundadores de Riot buscaron desarrollar un juego independiente del mismo género.</string>
+    <string name="game7">New world</string>
+    <string name = "description7">New World es un videojuego de rol multijugador masivo en línea desarrollado por Amazon Game Studios, con fecha de lanzamiento prevista para el 28 de septiembre.Su estreno fue anteriormente anunciado para agosto de 2020.</string>
+    <string name="game8">Stone Shard</string>
+    <string name = "description8">Stoneshard is a challenging turn-based RPG set in an open world. Experience the unforgiving life of a medieval mercenary: travel across the war-torn kingdom, fulfill contracts, fight, mend your wounds and develop your character without any restrictions.</string>
+    <string name="game9">Undertale</string>
+    <string name = "description9">Undertale es un videojuego de rol en 2D de 2015 creado por el desarrollador independiente estadounidense Toby Fox. El jugador controla a un niño que ha caído al subsuelo: una gran región aislada bajo la superficie de la Tierra, separada por una barrera mágica.</string>
+    <string name="game10">Metal Slug</string>
+    <string name = "description10">Metal Slug es una serie de videojuegos de tipo run and gun y beat em up lanzado inicialmente en las máquinas arcade Neo-Geo y en consolas de juegos creadas por SNK.</string>
+    <string name="about">Descripcion:</string>
+    <string name="expand_button_content_description">See more or less information about a game.</string>
+</resources>
